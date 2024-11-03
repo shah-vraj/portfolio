@@ -1,4 +1,4 @@
-import { motion } from 'framer-motion'; // Import Framer Motion
+import { motion } from 'framer-motion';
 import React from 'react';
 import skills from '../data/skills.json';
 import SkillBadge from './SkillBadge';
@@ -8,9 +8,9 @@ const Skills = () => (
     <h2 className="text-4xl font-bold text-center mt-6">Skills</h2>
     <motion.div
       className="flex flex-wrap justify-center gap-6 mt-8"
-      initial={{ opacity: 0, y: 50 }} // Start with opacity 0 and slightly down
-      animate={{ opacity: 1, y: 0 }} // Animate to full opacity and original position
-      transition={{ duration: 0.5 }} // Animation duration
+      initial={{ opacity: 0, y: 50 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.5 }}
     >
       {skills.map((skill, index) => (
         <SkillBadge key={index} skill={skill} />

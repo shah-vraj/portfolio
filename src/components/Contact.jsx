@@ -1,4 +1,4 @@
-import emailjs from 'emailjs-com'; // Import EmailJS
+import emailjs from 'emailjs-com';
 import React, { useState } from 'react';
 
 const Contact = () => {
@@ -8,7 +8,7 @@ const Contact = () => {
     message: ''
   });
   const [isSubmitted, setIsSubmitted] = useState(false);
-  const [lastSubmittedData, setLastSubmittedData] = useState(null); // State to track last submitted data
+  const [lastSubmittedData, setLastSubmittedData] = useState(null);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -18,7 +18,6 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    // Check if the current submission is the same as the last one
     if (lastSubmittedData && JSON.stringify(lastSubmittedData) === JSON.stringify(formData)) {
       alert("Please change your message or email before resending.");
       return;
@@ -28,8 +27,8 @@ const Contact = () => {
       .then((response) => {
         console.log('Message sent successfully!', response.status, response.text);
         setIsSubmitted(true);
-        setLastSubmittedData(formData); // Update last submitted data
-        setFormData({ name: '', email: '', message: '' }); // Clear form
+        setLastSubmittedData(formData);
+        setFormData({ name: '', email: '', message: '' });
       }, (error) => {
         console.log('Failed to send message. Error:', error);
         alert("Failed to send message. Please try again.");

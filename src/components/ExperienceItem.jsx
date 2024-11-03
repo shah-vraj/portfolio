@@ -1,4 +1,4 @@
-import { motion } from 'framer-motion'; // Import Framer Motion for animations
+import { motion } from 'framer-motion';
 import React, { useEffect, useRef, useState } from 'react';
 
 const ExperienceItem = ({ role, company, duration, details, index }) => {
@@ -10,10 +10,10 @@ const ExperienceItem = ({ role, company, duration, details, index }) => {
       ([entry]) => {
         if (entry.isIntersecting) {
           setIsVisible(true);
-          observer.disconnect(); // Stop observing once the element is visible
+          observer.disconnect();
         }
       },
-      { threshold: 0.5 } // Trigger when 50% of the section is visible
+      { threshold: 0.5 }
     );
 
     if (ref.current) {
@@ -30,11 +30,11 @@ const ExperienceItem = ({ role, company, duration, details, index }) => {
   return (
     <motion.div
       ref={ref}
-      className="flex items-center justify-start mb-8 space-x-4 z-1" // Removed the transform
-      initial={{ opacity: 0, x: 100 }} // Start off-screen to the right
-      animate={isVisible ? { opacity: 1, x: 0 } : { opacity: 0, x: 100 }} // Animate to visible
-      transition={{ duration: 0.5, delay: index * 0.1 }} // Staggered animation for each item
-      whileHover={{ scale: 1.01 }} // Add hover scale effect using Framer Motion
+      className="flex items-center justify-start mb-8 space-x-4 z-1"
+      initial={{ opacity: 0, x: 100 }}
+      animate={isVisible ? { opacity: 1, x: 0 } : { opacity: 0, x: 100 }}
+      transition={{ duration: 0.5, delay: index * 0.1 }}
+      whileHover={{ scale: 1.01 }}
     >
       <div className="flex flex-col items-center">
         <div className="flex-shrink-0 w-8 h-8 bg-blue-200 dark:bg-blue-500 rounded-full"/>

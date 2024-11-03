@@ -1,6 +1,6 @@
-import { motion } from 'framer-motion'; // Import Framer Motion for animations
+import { motion } from 'framer-motion';
 import React, { useEffect, useRef, useState } from 'react';
-import myImage from '../assets/my-image.png'; // Replace with your image path
+import myImage from '../assets/my-image.png';
 
 const About = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -11,10 +11,10 @@ const About = () => {
       ([entry]) => {
         if (entry.isIntersecting) {
           setIsVisible(true);
-          observer.disconnect(); // Stop observing once the element is visible
+          observer.disconnect();
         }
       },
-      { threshold: 0.4 } // Trigger when 10% of the section is visible
+      { threshold: 0.4 }
     );
 
     if (aboutRef.current) {
