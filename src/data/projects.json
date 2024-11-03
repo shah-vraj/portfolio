@@ -1,0 +1,12 @@
+[
+  {
+    "title": "SpendWise",
+    "description": "An Android application that helps you track all your expenses and provides overall expense data for all categories filtered by the month and year the expense was added.",
+    "link": "https://github.com/shah-vraj/SpendWise"
+  },
+  {
+    "title": "ServiceHub",
+    "description": "A Web application (React + Springboot) that provides an interface for user to offer/hire a service.",
+    "link": "https://github.com/shah-vraj/ServiceHub"
+  }
+]

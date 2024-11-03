@@ -1,0 +1,102 @@
+[
+  {
+    "title": "Android",
+    "icon": "android.png"
+  },
+  {
+    "title": "iOS",
+    "icon": "ios.png"
+  },
+  {
+    "title": "Java",
+    "icon": "java.png"
+  },
+  {
+    "title": "Kotlin",
+    "icon": "kotlin.png"
+  },
+  {
+    "title": "Swift",
+    "icon": "swift.png"
+  },
+  {
+    "title": "XML for android",
+    "icon": "xml.png"
+  },
+  {
+    "title": "Jetpack Compose",
+    "icon": "jetpack-compose.png"
+  },
+  {
+    "title": "Storyboard for iOS",
+    "icon": "storyboard.png"
+  },
+  {
+    "title": "SwiftUI",
+    "icon": "swift-ui.png"
+  },
+  {
+    "title": "SpringBoot",
+    "icon": "spring-boot.png"
+  },
+  {
+    "title": "CI/CD pipeline",
+    "icon": "ci-cd.png"
+  },
+  {
+    "title": "Docker",
+    "icon": "docker.png"
+  },
+  {
+    "title": "Design patterns",
+    "icon": "design-patterns.png"
+  },
+  {
+    "title": "Code Architecture - clean code",
+    "icon": "clean-code.png"
+  },
+  {
+    "title": "SOLID principles",
+    "icon": "solid.png"
+  },
+  {
+    "title": "Maven",
+    "icon": "maven.png"
+  },
+  {
+    "title": "Gradle",
+    "icon": "gradle.png"
+  },
+  {
+    "title": "Test Driven Development",
+    "icon": "tdd.png"
+  },
+  {
+    "title": "GitHub",
+    "icon": "github.png"
+  },
+  {
+    "title": "GitLab",
+    "icon": "gitlab.png"
+  },
+  {
+    "title": "BitBucket",
+    "icon": "bitbucket.png"
+  },
+  {
+    "title": "Azure Repos",
+    "icon": "azure-repos.png"
+  },
+  {
+    "title": "Zoho",
+    "icon": "zoho.png"
+  },
+  {
+    "title": "Jira",
+    "icon": "jira.png"
+  },
+  {
+    "title": "Communication",
+    "icon": "communication.png"
+  }
+]
