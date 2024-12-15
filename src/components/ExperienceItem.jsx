@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import React, { useEffect, useRef, useState } from 'react';
+import { ReadMore } from "./ReadMore";
 
 const ExperienceItem = ({ role, company, logo, duration, details, index }) => {
   const [isVisible, setIsVisible] = useState(false);
@@ -14,7 +15,7 @@ const ExperienceItem = ({ role, company, logo, duration, details, index }) => {
           observer.disconnect();
         }
       },
-      { threshold: 0.5 }
+      { threshold: 0.4 }
     );
 
     if (ref.current) {
@@ -43,7 +44,9 @@ const ExperienceItem = ({ role, company, logo, duration, details, index }) => {
         <h3 className="text-2xl font-semibold">{role}</h3>
         <p className="text-lg font-medium mt-1">{company}</p>
         <p className="mt-1 italic text-gray-600 dark:text-gray-400">{duration}</p>
-        <p className="mt-4">{details}</p>
+        <div className="mt-4">
+          <ReadMore>{details}</ReadMore>
+        </div>
       </div>
     </motion.div>
   );
