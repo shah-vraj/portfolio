@@ -12,7 +12,7 @@ export const ReadMore = ({ children }) => {
       <span
         onClick={toggleReadMore}
         className="read-or-hide text-blue-500"
-
+        style={{ cursor: "pointer" }}
       >
         {isReadMore ? " ...read more" : " show less"}
       </span>
