@@ -28,6 +28,14 @@
     "icon": "jetpack-compose.png"
   },
   {
+    "title": "Room database",
+    "icon": "room.png"
+  },
+  {
+    "title": "Realm database",
+    "icon": "realm.png"
+  },
+  {
     "title": "Storyboard for iOS",
     "icon": "storyboard.png"
   },
@@ -36,8 +44,48 @@
     "icon": "swift-ui.png"
   },
   {
+    "title": "HTML",
+    "icon": "html.png"
+  },
+  {
+    "title": "CSS",
+    "icon": "css.png"
+  },
+  {
+    "title": "Javascript",
+    "icon": "javascript.png"
+  },
+  {
+    "title": "React.js",
+    "icon": "react.png"
+  },
+  {
+    "title": "Bootstrap",
+    "icon": "bootstrap.png"
+  },
+  {
+    "title": "Tailwind CSS",
+    "icon": "tailwind-css.png"
+  },
+  {
+    "title": "NodeJS",
+    "icon": "node-js.png"
+  },
+  {
     "title": "SpringBoot",
     "icon": "spring-boot.png"
+  },
+  {
+    "title": "AWS",
+    "icon": "aws.png"
+  },
+  {
+    "title": "Firebase",
+    "icon": "firebase.png"
+  },
+  {
+    "title": "Google Cloud Platform",
+    "icon": "gcp.png"
   },
   {
     "title": "CI/CD pipeline",
@@ -46,6 +94,18 @@
   {
     "title": "Docker",
     "icon": "docker.png"
+  },
+  {
+    "title": "Kubernetes",
+    "icon": "kubernetes.png"
+  },
+  {
+    "title": "MySQL",
+    "icon": "mysql.png"
+  },
+  {
+    "title": "MongoDb",
+    "icon": "mongo-db.png"
   },
   {
     "title": "Design patterns",

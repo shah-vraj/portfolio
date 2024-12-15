@@ -1,12 +1,120 @@
 [
   {
     "title": "SpendWise",
-    "description": "An Android application that helps you track all your expenses and provides overall expense data for all categories filtered by the month and year the expense was added.",
-    "link": "https://github.com/shah-vraj/SpendWise"
+    "image": "spendwise.png",
+    "description": "An Android application that helps you keep track of all your expenses. It provides overall expense data for all categories filtered by the month and year the expense was added. It uses Jetpack Compose framework for building UI and maintaining app state with Room as database for storing data locally.",
+    "sourceCode": "https://github.com/shah-vraj/SpendWise",
+    "downloadUrl": "https://github.com/shah-vraj/SpendWise/releases/download/spendwise_1.1/SpendWise.apk",
+    "skills": [
+      {
+        "title": "Android",
+        "icon": "android.png"
+      },
+      {
+        "title": "Kotlin",
+        "icon": "kotlin.png"
+      },
+      {
+        "title": "Jetpack Compose",
+        "icon": "jetpack-compose.png"
+      },
+      {
+        "title": "Room database",
+        "icon": "room.png"
+      }
+    ]
   },
   {
     "title": "ServiceHub",
-    "description": "A Web application (React + Springboot) that provides an interface for user to offer/hire a service.",
-    "link": "https://github.com/shah-vraj/ServiceHub"
+    "image": "servicehub.png",
+    "description": "A Web application that provides an interface for users to offer specific service or hire another service provided by other users. This application is built using React.js as frontend framework and Springboot with JAVA for backend APIs.",
+    "sourceCode": "https://github.com/shah-vraj/ServiceHub",
+    "skills": [
+      {
+        "title": "HTML",
+        "icon": "html.png"
+      },
+      {
+        "title": "CSS",
+        "icon": "css.png"
+      },
+      {
+        "title": "Javascript",
+        "icon": "javascript.png"
+      },
+      {
+        "title": "React.js",
+        "icon": "react.png"
+      },
+      {
+        "title": "SpringBoot",
+        "icon": "spring-boot.png"
+      },
+      {
+        "title": "MySQL",
+        "icon": "mysql.png"
+      },
+      {
+        "title": "Java",
+        "icon": "java.png"
+      },
+      {
+        "title": "CI/CD pipeline",
+        "icon": "ci-cd.png"
+      },
+      {
+        "title": "Docker",
+        "icon": "docker.png"
+      },
+      {
+        "title": "Design patterns",
+        "icon": "design-patterns.png"
+      },
+      {
+        "title": "SOLID principles",
+        "icon": "solid.png"
+      },
+      {
+        "title": "Test Driven Development",
+        "icon": "tdd.png"
+      }
+    ]
+  },
+  {
+    "title": "Habit",
+    "image": "habit.png",
+    "description": "An Android application that helps you keep track of all your habits. It provides GitHub like statistics for your habit completion stats. It uses XML framework for building UI and maintaining app state. The backend is built with SpringBoot using Kotlin language.",
+    "sourceCode": "https://github.com/shah-vraj/Habit",
+    "downloadUrl": "https://install.appcenter.ms/users/shahvraj331/apps/habit/distribution_groups/publicgroup",
+    "skills": [
+      {
+        "title": "Android",
+        "icon": "android.png"
+      },
+      {
+        "title": "Kotlin",
+        "icon": "kotlin.png"
+      },
+      {
+        "title": "XML for android",
+        "icon": "xml.png"
+      },
+      {
+        "title": "SpringBoot",
+        "icon": "spring-boot.png"
+      },
+      {
+        "title": "Docker",
+        "icon": "docker.png"
+      },
+      {
+        "title": "MongoDb",
+        "icon": "mongo-db.png"
+      },
+      {
+        "title": "Code Architecture - clean code",
+        "icon": "clean-code.png"
+      }
+    ]
   }
 ]

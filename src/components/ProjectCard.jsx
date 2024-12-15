@@ -1,9 +1,11 @@
 import { motion } from 'framer-motion';
 import React, { useEffect, useRef, useState } from 'react';
+import SkillBadge from "./SkillBadge";
 
-const ProjectCard = ({ title, description, link, index }) => {
+const ProjectCard = ({ title, image, description, sourceCode, downloadUrl, skills, index }) => {
   const [isVisible, setIsVisible] = useState(false);
   const ref = useRef(null);
+  const iconPath = require(`../assets/${image}`);
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -36,16 +38,44 @@ const ProjectCard = ({ title, description, link, index }) => {
       transition={{ duration: 0.5, delay: index * 0.1 }}
       whileHover={{ scale: 1.01 }}
     >
-      <h3 className="text-2xl font-semibold">{title}</h3>
+      <img src={iconPath} alt="Company logo" className="w-20 h-20 object-contain rounded-lg"/>
+
+      <h3 className="mt-3 text-2xl font-semibold">{title}</h3>
       <p className="mt-2">{description}</p>
-      <a
-        href={link}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="flex mt-6 text-blue-500 hover:underline justify-end"
-      >
-        View Project
-      </a>
+
+      <div className="flex mt-3 space-x-2 mb-3">
+        <a
+          href={sourceCode}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex text-blue-500 hover:underline"
+        >
+          Source code
+        </a>
+
+        {downloadUrl ? (
+          <div className="flex space-x-2">
+            <text className="text-blue-500">|</text>
+            <a
+              href={downloadUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex text-blue-500 hover:underline"
+            >
+              Download
+            </a>
+          </div>
+        ) : <></>}
+      </div>
+
+      {skills ? (
+        <div className="flex flex-wrap justify-start gap-4 mt-4">
+          {skills.map((skill, index) => (
+            <SkillBadge key={index} skill={skill}/>
+          ))}
+        </div>
+      ) : <></>}
+
     </motion.div>
   );
 };
