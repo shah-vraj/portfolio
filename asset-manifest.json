@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.02721dfa.css",
-    "main.js": "/portfolio/static/js/main.4bd4f1a2.js",
+    "main.js": "/portfolio/static/js/main.7e75df72.js",
     "static/media/my-image.png": "/portfolio/static/media/my-image.bc443247a3d2c5f7284d.png",
     "static/media/spendwise.png": "/portfolio/static/media/spendwise.6e7da589112d7b28847b.png",
     "static/media/simform_logo.png": "/portfolio/static/media/simform_logo.09d8a2880a2d0e62c5a6.png",
     "static/media/servicehub.png": "/portfolio/static/media/servicehub.a8acdf789177b102bd2c.png",
     "index.html": "/portfolio/index.html",
     "main.02721dfa.css.map": "/portfolio/static/css/main.02721dfa.css.map",
-    "main.4bd4f1a2.js.map": "/portfolio/static/js/main.4bd4f1a2.js.map"
+    "main.7e75df72.js.map": "/portfolio/static/js/main.7e75df72.js.map"
   },
   "entrypoints": [
     "static/css/main.02721dfa.css",
-    "static/js/main.4bd4f1a2.js"
+    "static/js/main.7e75df72.js"
   ]
 }
