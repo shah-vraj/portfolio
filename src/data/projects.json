@@ -4,7 +4,7 @@
     "image": "spendwise.png",
     "description": "An Android application that helps you keep track of all your expenses. It provides overall expense data for all categories filtered by the month and year the expense was added. It uses Jetpack Compose framework for building UI and maintaining app state with Room as database for storing data locally.",
     "sourceCode": "https://github.com/shah-vraj/SpendWise",
-    "downloadUrl": "https://github.com/shah-vraj/SpendWise/releases/download/spendwise_1.1/SpendWise.apk",
+    "downloadUrl": "https://github.com/shah-vraj/SpendWise/releases/download/spendwise_release_1.0/SpendWise.apk",
     "skills": [
       {
         "title": "Android",
