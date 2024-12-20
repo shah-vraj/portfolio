@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.105b9c02.css",
-    "main.js": "/portfolio/static/js/main.52970237.js",
-    "static/media/my-image.png": "/portfolio/static/media/my-image.bc443247a3d2c5f7284d.png",
-    "static/media/spendwise.png": "/portfolio/static/media/spendwise.6e7da589112d7b28847b.png",
-    "static/media/simform_logo.png": "/portfolio/static/media/simform_logo.09d8a2880a2d0e62c5a6.png",
-    "static/media/servicehub.png": "/portfolio/static/media/servicehub.a8acdf789177b102bd2c.png",
-    "index.html": "/portfolio/index.html",
-    "main.105b9c02.css.map": "/portfolio/static/css/main.105b9c02.css.map",
-    "main.52970237.js.map": "/portfolio/static/js/main.52970237.js.map"
+    "main.css": "/static/css/main.105b9c02.css",
+    "main.js": "/static/js/main.f16fe57c.js",
+    "static/media/my-image.png": "/static/media/my-image.bc443247a3d2c5f7284d.png",
+    "static/media/spendwise.png": "/static/media/spendwise.6e7da589112d7b28847b.png",
+    "static/media/simform_logo.png": "/static/media/simform_logo.09d8a2880a2d0e62c5a6.png",
+    "static/media/servicehub.png": "/static/media/servicehub.a8acdf789177b102bd2c.png",
+    "index.html": "/index.html",
+    "main.105b9c02.css.map": "/static/css/main.105b9c02.css.map",
+    "main.f16fe57c.js.map": "/static/js/main.f16fe57c.js.map"
   },
   "entrypoints": [
     "static/css/main.105b9c02.css",
-    "static/js/main.52970237.js"
+    "static/js/main.f16fe57c.js"
   ]
 }
